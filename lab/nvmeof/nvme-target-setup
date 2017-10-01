@@ -1,0 +1,43 @@
+{
+  "hosts": [
+    {
+      "nqn": "####ENTER INITIATOR NQN HERE ####"
+    }
+  ], 
+  "ports": [
+    {
+      "addr": {
+        "adrfam": "ipv4", 
+        "traddr": "192.168.35.129", 
+        "treq": "not specified", 
+        "trsvcid": "4420", 
+        "trtype": "rdma"
+      }, 
+      "portid": 2, 
+      "referrals": [], 
+      "subsystems": [
+        "nqn.2014-08.org.nvmexpress:NVMf:uuid:523f532a-0045-44e9-9d32-1c5c070b3e34"
+      ]
+    }
+  ], 
+  "subsystems": [
+    {
+      "allowed_hosts": [], 
+      "attr": {
+        "allow_any_host": "1"
+      }, 
+      "namespaces": [
+        {
+          "device": {
+            "nguid": "00000000-0000-0000-0000-000000000000", 
+            "path": "/dev/nvme0n1"
+          }, 
+          "enable": 1, 
+          "nsid": 1
+        }
+      ], 
+      "nqn": "nqn.2014-08.org.nvmexpress:NVMf:uuid:523f532a-0045-44e9-9d32-1c5c070b3e34"
+    }
+  ]
+}
+
