@@ -265,6 +265,7 @@ int do_send_recv( int connFd)
 		// here. Q&D hack. Note its in Nw byte order
 		data.data_size = d_addr.sin_addr.s_addr;
 		write_port_numbers(data.port_numbers);
+                printf("Sending with NULL\n");
 		if ((rs = send(connFd, &data, sizeof(data), 0)) != sizeof(data)) {
 		    printf("Error sending E_MS_PORT_TABLE_REPLY: %zd\n", rs);
 		} else {

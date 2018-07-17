@@ -7,6 +7,7 @@
 #include <string.h>
 
 typedef INT32 int32_t
+typedef UINT32 uint32_t
 typedef INT8 int8_t
 typedef void VOID
 typedef uint8_t BOOLEAN

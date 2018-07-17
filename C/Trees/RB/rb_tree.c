@@ -78,32 +78,63 @@ VOID insert_rb_node (PNODE_RB root, INT32 val);
 VOID insert_fixup(PNODE_RB root, PNODE_RB node)
 {
     while(node_parent(node)->c == RED) {
-        PNODE_RB uncle = node_uncle(node);
-        if (uncle != NULL) {
+        /* Node's parent is a left child */
+        if (node_grand_parent(node)->l == node_parent(node)) {
+            PNODE_RB uncle = node_uncle(node);
             /* case 1: node's uncle is RED */
             if (uncle->c == RED) {
-                /* If node's parent is left child */
-                if (node_grand_parent(node)->l == node_parent(node)) {
-                    node_parent(node)->c = node_uncle(node)->c = BLACK;
-                } else {
-                    /* node's parent is right child */
-                    node_parent(node)->c = node_uncle(node)->c = BLACK;
-                }
+            /* If node's parent is left child */
+                node_parent(node)->c = node_uncle(node)->c = BLACK;
+                node_grand_parent(node)->c  =   RED;
                 node = node_grand_parent(node);
-            } else {
+            } else if (node == node_parent(node)->r) {
                 /* Case 2: Node's uncle is black and node is right child*/
                 node = node_parent(node);
-                left_rotate_rb_node(node, node->r);
-                /* Case 3: Node's uncle is black and node is left child*/
-            }
+                left_rotate_rb_node(root, node);
+                }
+            /* Case 3: Node's uncle is black and node is left child*/
+            node_grand_parent(node)->c  = RED;
+            node_parent(node)->c        = BLACK;
+            right_rotate_rb_node(root, node_grand_parent(node));
         } else {
-            PRINT("Can't fixup, uncle Null, %p", node);
+            /* Node's parent is a Right child */
+            PNODE_RB uncle = node_uncle(node);
+            /* case 1: node's uncle is RED */
+            if (uncle->c == RED) {
+            /* If node's parent is left child */
+                node_parent(node)->c = node_uncle(node)->c = BLACK;
+                node_grand_parent(node)->c  =   RED;
+                node = node_grand_parent(node);
+            } else if (node == node_parent(node)->l) {
+                /* Case 2: Node's uncle is black and node is right child*/
+                node = node_parent(node);
+                right_rotate_rb_node(root, node);
+                }
+            /* Case 3: Node's uncle is black and node is left child*/
+            node_grand_parent(node)->c  = RED;
+            node_parent(node)->c        = BLACK;
+            (root, node_grand_parent(node));
         }
     }
 
+    root->c = BLACK;
+}
+
+PNODE_RB make_rb_tree(UINT32 numNodes)
+{
+    PNODE_RB    root    = NULL;
+    UINT32        i     = 0;
+    INT32       input[] = {11, 2, 14, 1, 7, 15, 5, 8, 4}; 
+
+    for (i = 0; i < numNodes; i++) {
+        insert_rb_node(&root, input[i]);
+    }
+
+    return root;
 }
 
 int main () {
 
-return 0;
+    make_rb_tree(9);
+    return 0;
 }
