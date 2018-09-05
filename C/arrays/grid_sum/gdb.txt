@@ -1,0 +1,1325 @@
+Reading symbols from ./grid_sum...done.
+Breakpoint 1 at 0x837: file grid_sum.c, line 24.
+No frame selected.
+Starting program: /opt/dev/Programs/C/arrays/grid_sum/grid_sum 
+
+Breakpoint 1, display_tupples (tupples=0x555555756260, num_elements=36, tupple_size=2) at grid_sum.c:24
+24	    int i = 0;
+$1 = {1, 2, 1, 3, 1, 4, 1, 5, 1, 6, 1, 7, 1, 8, 1, 9, 2, 3, 2, 4, 2, 5, 2, 6, 2, 7, 2, 8, 2, 9, 3, 4, 3, 5, 3, 6}
+$2 = {1, 2, 1, 3, 1, 4, 1, 5, 1, 6, 1, 7, 1, 8, 1, 9, 2, 3, 2, 4, 2, 5, 2, 6, 2, 7, 2, 8, 2, 9, 3, 4, 3, 5, 3, 6, 3, 7, 3, 8, 3, 9, 4, 5, 4, 6, 4, 7, 4, 8, 4, 9, 5, 6, 5, 7, 5, 8, 5, 9, 6, 7, 6, 8, 6, 9, 
+  7, 8, 7, 9, 8, 9}
+$3 = {1, 2, 1, 3, 1, 4, 1, 5, 1, 6, 1, 7, 1, 8, 1, 9, 2, 3, 2, 4, 2, 5, 2, 6, 2, 7, 2, 8, 2, 9, 3, 4, 3, 5, 3, 6, 3, 7, 3, 8, 3, 9, 4, 5, 4, 6, 4, 7, 4, 8, 4, 9, 5, 6, 5, 7, 5, 8, 5, 9, 6, 7, 6, 8, 6, 9, 
+  7, 8, 7, 9, 8, 9, 0 <repeats 28 times>}
+Reading symbols from ./grid_sum...done.
+Breakpoint 1 at 0x837: file grid_sum.c, line 24.
+Starting program: /opt/dev/Programs/C/arrays/grid_sum/grid_sum 
+
+Breakpoint 1, display_tupples (tupples=0x555555756260, num_elements=72, cardinality=2) at grid_sum.c:24
+24	    int i = 0;
+$1 = {1, 2, 1, 3, 1, 4, 1, 5, 1, 6, 1, 7, 1, 8, 1, 9, 2, 3, 2, 4, 2, 5, 2, 6, 2, 7, 2, 8, 2, 9, 3, 4, 3, 5, 3, 6, 3, 7, 3, 8, 3, 9, 4, 5, 4, 6, 4, 7, 4, 8, 4, 9, 5, 6, 5, 7, 5, 8, 5, 9, 6, 7, 6, 8, 6, 9, 
+  7, 8, 7, 9, 8, 9}
+$2 = {0x555555756260, 0x4600000048, 0x555555756260, 0x7fffffffde90, 0x555555554a5e <main+138>, 0x4800000001, 0x555555756260, 0x200000001, 0x400000003, 0x600000005, 0x800000007, 0x7fff00000009, 
+  0x93c8226f98c75400, 0x555555554a80 <__libc_csu_init>, 0x7ffff7a05b97 <__libc_start_main+231>, 0x1, 0x7fffffffdf78, 0x100008000, 0x5555555549d4 <main>, 0x0, 0x2491cd82e0391031, 0x555555554680 <_start>, 
+  0x7fffffffdf70, 0x0, 0x0, 0x71c498d7c8791031, 0x71c48868c3a71031, 0x7fff00000000, 0x0, 0x0, 0x7ffff7de5733 <_dl_init+259>, 0x7ffff7dcb638 <__elf_set___libc_subfreeres_element_free_mem__>, 0x1d1d752c, 
+  0x0, 0x0, 0x0, 0x555555554680 <_start>, 0x7fffffffdf70, 0x5555555546aa <_start+42>, 0x7fffffffdf68, 0x1c, 0x1, 0x7fffffffe2c6, 0x0, 0x7fffffffe2f3, 0x7fffffffe309, 0x7fffffffe8f5, 0x7fffffffe917, 
+  0x7fffffffe92e, 0x7fffffffe93d, 0x7fffffffe948, 0x7fffffffe953, 0x7fffffffe975, 0x7fffffffe995, 0x7fffffffe9b4, 0x7fffffffe9c8, 0x7fffffffea0e, 0x7fffffffea1d, 0x7fffffffea28, 0x7fffffffea51, 
+  0x7fffffffea87, 0x7fffffffea98, 0x7fffffffeaa3, 0x7fffffffeaba, 0x7fffffffeacc, 0x7fffffffeaed, 0x7fffffffeb43, 0x7fffffffeb76, 0x7fffffffeb97, 0x7fffffffebbf, 0x7fffffffebc8, 0x7fffffffebd9}
+$3 = {0x555555756260, 0x4600000048, 0x555555756260, 0x7fffffffde90, 0x555555554a5e <main+138>, 0x4800000001, 0x555555756260, 0x200000001, 0x400000003, 0x600000005, 0x800000007, 0x7fff00000009, 
+  0x93c8226f98c75400, 0x555555554a80 <__libc_csu_init>, 0x7ffff7a05b97 <__libc_start_main+231>, 0x1, 0x7fffffffdf78, 0x100008000, 0x5555555549d4 <main>, 0x0, 0x2491cd82e0391031, 0x555555554680 <_start>, 
+  0x7fffffffdf70, 0x0, 0x0, 0x71c498d7c8791031, 0x71c48868c3a71031, 0x7fff00000000, 0x0, 0x0, 0x7ffff7de5733 <_dl_init+259>, 0x7ffff7dcb638 <__elf_set___libc_subfreeres_element_free_mem__>, 0x1d1d752c, 
+  0x0, 0x0, 0x0, 0x555555554680 <_start>, 0x7fffffffdf70, 0x5555555546aa <_start+42>, 0x7fffffffdf68, 0x1c, 0x1, 0x7fffffffe2c6, 0x0, 0x7fffffffe2f3, 0x7fffffffe309, 0x7fffffffe8f5, 0x7fffffffe917, 
+  0x7fffffffe92e, 0x7fffffffe93d, 0x7fffffffe948, 0x7fffffffe953, 0x7fffffffe975, 0x7fffffffe995, 0x7fffffffe9b4, 0x7fffffffe9c8, 0x7fffffffea0e, 0x7fffffffea1d, 0x7fffffffea28, 0x7fffffffea51, 
+  0x7fffffffea87, 0x7fffffffea98, 0x7fffffffeaa3, 0x7fffffffeaba, 0x7fffffffeacc, 0x7fffffffeaed, 0x7fffffffeb43, 0x7fffffffeb76, 0x7fffffffeb97, 0x7fffffffebbf, 0x7fffffffebc8, 0x7fffffffebd9}
+$4 = {0x555555756260, 0x4600000048, 0x555555756260, 0x7fffffffde90, 0x555555554a5e <main+138>, 0x4800000001, 0x555555756260, 0x200000001, 0x400000003, 0x600000005, 0x800000007, 0x7fff00000009, 
+  0x93c8226f98c75400, 0x555555554a80 <__libc_csu_init>, 0x7ffff7a05b97 <__libc_start_main+231>, 0x1, 0x7fffffffdf78, 0x100008000, 0x5555555549d4 <main>, 0x0, 0x2491cd82e0391031, 0x555555554680 <_start>, 
+  0x7fffffffdf70, 0x0, 0x0, 0x71c498d7c8791031, 0x71c48868c3a71031, 0x7fff00000000, 0x0, 0x0, 0x7ffff7de5733 <_dl_init+259>, 0x7ffff7dcb638 <__elf_set___libc_subfreeres_element_free_mem__>, 0x1d1d752c, 
+  0x0, 0x0, 0x0, 0x555555554680 <_start>, 0x7fffffffdf70, 0x5555555546aa <_start+42>, 0x7fffffffdf68, 0x1c, 0x1, 0x7fffffffe2c6, 0x0, 0x7fffffffe2f3, 0x7fffffffe309, 0x7fffffffe8f5, 0x7fffffffe917, 
+  0x7fffffffe92e, 0x7fffffffe93d, 0x7fffffffe948, 0x7fffffffe953, 0x7fffffffe975, 0x7fffffffe995, 0x7fffffffe9b4, 0x7fffffffe9c8, 0x7fffffffea0e, 0x7fffffffea1d, 0x7fffffffea28, 0x7fffffffea51, 
+  0x7fffffffea87, 0x7fffffffea98, 0x7fffffffeaa3, 0x7fffffffeaba, 0x7fffffffeacc, 0x7fffffffeaed, 0x7fffffffeb43, 0x7fffffffeb76, 0x7fffffffeb97, 0x7fffffffebbf, 0x7fffffffebc8, 0x7fffffffebd9}
+$5 = {1, 2, 1, 3, 1, 4, 1, 5, 1, 6, 1, 7, 1, 8, 1, 9, 2, 3, 2, 4, 2, 5, 2, 6, 2, 7, 2, 8, 2, 9, 3, 4, 3, 5, 3, 6, 3, 7, 3, 8, 3, 9, 4, 5, 4, 6, 4, 7, 4, 8, 4, 9, 5, 6, 5, 7, 5, 8, 5, 9, 6, 7, 6, 8, 6, 9, 
+  7, 8, 7, 9, 8, 9}
+1: i = 1433756256
+25	    int j = 0;
+1: i = 0
+26	    for (; i < (num_elements / cardinality); i += 2) {
+1: i = 0
+27	        printf ("(");
+1: i = 0
+28	        for (;j < cardinality; j++) {
+1: i = 0
+2: j = 0
+29	            printf (" %d", tupples[j]);
+1: i = 0
+2: j = 0
+28	        for (;j < cardinality; j++) {
+1: i = 0
+2: j = 0
+29	            printf (" %d", tupples[j]);
+1: i = 0
+2: j = 1
+28	        for (;j < cardinality; j++) {
+1: i = 0
+2: j = 1
+31	        printf (")\n");
+1: i = 0
+2: j = 2
+26	    for (; i < (num_elements / cardinality); i += 2) {
+1: i = 0
+2: j = 2
+27	        printf ("(");
+1: i = 2
+2: j = 2
+28	        for (;j < cardinality; j++) {
+1: i = 2
+2: j = 2
+31	        printf (")\n");
+1: i = 2
+2: j = 2
+26	    for (; i < (num_elements / cardinality); i += 2) {
+1: i = 2
+2: j = 2
+27	        printf ("(");
+1: i = 4
+2: j = 2
+28	        for (;j < cardinality; j++) {
+1: i = 4
+2: j = 2
+31	        printf (")\n");
+1: i = 4
+2: j = 2
+26	    for (; i < (num_elements / cardinality); i += 2) {
+1: i = 4
+2: j = 2
+Reading symbols from ./grid_sum...done.
+Reading symbols from ./grid_sum...done.
+quit
+Reading symbols from ./grid_sum...done.
+Breakpoint 1 at 0xa35: file ./grid_sum.c, line 61.
+Starting program: /opt/dev/Programs/C/arrays/grid_sum/grid_sum 
+
+Breakpoint 1, get_next_size_tupples (seq=0x7fffffffde60, tupples=0x555555757260, num_ele=72, cardinality=2, sum=15, size=0x7fffffffde4c) at ./grid_sum.c:61
+warning: Source file is more recent than executable.
+61	{
+No symbol "tupple" in current context.
+$1 = {1, 2, 1, 3, 1, 4, 1, 5, 1, 6, 1, 7, 1, 8, 1, 9, 2, 3, 2, 4, 2, 5, 2, 6, 2, 7, 2, 8, 2, 9, 3, 4, 3, 5, 3, 6, 3, 7, 3, 8, 3, 9, 4, 5, 4, 6, 4, 7, 4, 8, 4, 9, 5, 6, 5, 7, 5, 8, 5, 9, 6, 7, 6, 8, 6, 9, 
+  7, 8, 7, 9, 8, 9}
+1: *tupples@72 = {1, 2, 1, 3, 1, 4, 1, 5, 1, 6, 1, 7, 1, 8, 1, 9, 2, 3, 2, 4, 2, 5, 2, 6, 2, 7, 2, 8, 2, 9, 3, 4, 3, 5, 3, 6, 3, 7, 3, 8, 3, 9, 4, 5, 4, 6, 4, 7, 4, 8, 4, 9, 5, 6, 5, 7, 5, 8, 5, 9, 6, 7, 
+  6, 8, 6, 9, 7, 8, 7, 9, 8, 9}
+62	    int tupple_i = 0;
+1: *tupples@72 = {1, 2, 1, 3, 1, 4, 1, 5, 1, 6, 1, 7, 1, 8, 1, 9, 2, 3, 2, 4, 2, 5, 2, 6, 2, 7, 2, 8, 2, 9, 3, 4, 3, 5, 3, 6, 3, 7, 3, 8, 3, 9, 4, 5, 4, 6, 4, 7, 4, 8, 4, 9, 5, 6, 5, 7, 5, 8, 5, 9, 6, 7, 
+  6, 8, 6, 9, 7, 8, 7, 9, 8, 9}
+Reading symbols from ./grid_sum...done.
+Breakpoint 1 at 0xa35: file ./grid_sum.c, line 61.
+The program is not being run.
+Starting program: /opt/dev/Programs/C/arrays/grid_sum/grid_sum 
+
+Breakpoint 1, get_next_size_tupples (seq=0x7fffffffddc0, tupples=0x555555757260, num_ele=72, cardinality=2, sum=15, 
+    size=0x7fffffffddac) at ./grid_sum.c:61
+warning: Source file is more recent than executable.
+61	{
+`/opt/dev/Programs/C/arrays/grid_sum/grid_sum' has changed; re-reading symbols.
+Starting program: /opt/dev/Programs/C/arrays/grid_sum/grid_sum 
+warning: Probes-based dynamic linker interface failed.
+Reverting to original interface.
+
+
+Breakpoint 1, get_next_size_tupples (seq=0x7fffffffddc0, tupples=0x555555757260, num_ele=72, cardinality=2, sum=15, 
+    size=0x7fffffffddac) at ./grid_sum.c:61
+61	{
+Reading symbols from ./grid_sum...done.
+Breakpoint 1 at 0xa35: file ./grid_sum.c, line 61.
+Starting program: /opt/dev/Programs/C/arrays/grid_sum/grid_sum 
+
+Breakpoint 1, get_next_size_tupples (seq=0x7fffffffddc0, tupples=0x555555757260, num_ele=72, cardinality=2, sum=15, 
+    size=0x7fffffffddac) at ./grid_sum.c:61
+61	{
+1: tupple_i = 32767
+2: seq_i = 9
+62	    int tupple_i = 0;
+1: tupple_i = 32767
+2: seq_i = 9
+63	    int seq_i = 0;
+1: tupple_i = 0
+2: seq_i = 9
+64	    int *next_tupples = NULL;
+1: tupple_i = 0
+2: seq_i = 0
+65	    for (; tupple_i < num_ele; tupple_i += cardinality) {
+1: tupple_i = 0
+2: seq_i = 0
+66	        for (seq_i = 0; seq_i < ARRAY_SIZE; seq_i++) {
+1: tupple_i = 0
+2: seq_i = 0
+67	            int tmp [] = {seq_i};
+1: tupple_i = 0
+2: seq_i = 0
+68	            if (!intersects(tupples, cardinality, tmp, 1) && 
+1: tupple_i = 0
+2: seq_i = 0
+$1 = {0}
+$2 = (int *) 0x555555757260
+$3 = 1
+Reading symbols from ./grid_sum...done.
+Breakpoint 1 at 0xa35: file ./grid_sum.c, line 61.
+Starting program: /opt/dev/Programs/C/arrays/grid_sum/grid_sum 
+
+Breakpoint 1, get_next_size_tupples (seq=0x7fffffffddc0, tupples=0x555555757260, num_ele=72, cardinality=2, sum=15, 
+    size=0x7fffffffddac) at ./grid_sum.c:61
+61	{
+62	    int tupple_i = 0;
+Undefined command: "jn".  Try "help".
+63	    int seq_i = 0;
+64	    int *next_tupples = NULL;
+65	    for (; tupple_i < num_ele; tupple_i += cardinality) {
+66	        for (seq_i = 0; seq_i < ARRAY_SIZE; seq_i++) {
+1: tupple_i = 0
+67	            int tmp [] = {seq[seq_i]};
+1: tupple_i = 0
+68	            if (!intersects(tupples, cardinality, tmp, 1) && 
+1: tupple_i = 0
+intersects (tupple=0x555555757260, cardinality=2, element_tupple=0x7fffffffdd84, cardinality_et=1) at ./grid_sum.c:8
+8	    for (int i = 0; i < cardinality; i++) {
+$1 = {1, 2, 1, 3, 1, 4, 1, 5, 1, 6, 1, 7, 1, 8, 1, 9, 2, 3, 2, 4, 2, 5, 2, 6, 2, 7, 2, 8, 2, 9, 3, 4, 3, 5, 3, 6, 3, 7, 3, 8, 3, 9, 4, 
+  5, 4, 6, 4, 7, 4, 8, 4, 9, 5, 6, 5, 7, 5, 8, 5, 9, 6, 7, 6, 8, 6, 9, 7, 8, 7, 9, 8, 9}
+$2 = {1}
+9	        int num_matched = 0;
+10	        for (int j = 0; j < cardinality_et; j++) {
+11	            if ( tupple[i] == element_tupple[j]) {
+12	                if (++num_matched == cardinality_et)
+13	                    return 1;   // intersects
+19	}
+get_next_size_tupples (seq=0x7fffffffddc0, tupples=0x555555757260, num_ele=72, cardinality=2, sum=15, size=0x7fffffffddac)
+    at ./grid_sum.c:66
+66	        for (seq_i = 0; seq_i < ARRAY_SIZE; seq_i++) {
+1: tupple_i = 0
+67	            int tmp [] = {seq[seq_i]};
+1: tupple_i = 0
+68	            if (!intersects(tupples, cardinality, tmp, 1) && 
+1: tupple_i = 0
+$3 = {2}
+66	        for (seq_i = 0; seq_i < ARRAY_SIZE; seq_i++) {
+1: tupple_i = 0
+67	            int tmp [] = {seq[seq_i]};
+1: tupple_i = 0
+68	            if (!intersects(tupples, cardinality, tmp, 1) && 
+1: tupple_i = 0
+Breakpoint 2 at 0x55555555482c: file ./grid_sum.c, line 8.
+Continuing.
+
+Breakpoint 2, intersects (tupple=0x555555757260, cardinality=2, element_tupple=0x7fffffffdd84, cardinality_et=1) at ./grid_sum.c:8
+8	    for (int i = 0; i < cardinality; i++) {
+2: element_tupple = (int *) 0x7fffffffdd84
+3: *element_tupple = 3
+9	        int num_matched = 0;
+2: element_tupple = (int *) 0x7fffffffdd84
+3: *element_tupple = 3
+10	        for (int j = 0; j < cardinality_et; j++) {
+3: *element_tupple = 3
+11	            if ( tupple[i] == element_tupple[j]) {
+3: *element_tupple = 3
+10	        for (int j = 0; j < cardinality_et; j++) {
+3: *element_tupple = 3
+4: tupple[i] = 1
+5: element_tupple[j] = 3
+8	    for (int i = 0; i < cardinality; i++) {
+3: *element_tupple = 3
+4: tupple[i] = 1
+9	        int num_matched = 0;
+3: *element_tupple = 3
+4: tupple[i] = 2
+10	        for (int j = 0; j < cardinality_et; j++) {
+3: *element_tupple = 3
+4: tupple[i] = 2
+5: element_tupple[j] = 830272768
+11	            if ( tupple[i] == element_tupple[j]) {
+3: *element_tupple = 3
+4: tupple[i] = 2
+5: element_tupple[j] = 3
+10	        for (int j = 0; j < cardinality_et; j++) {
+3: *element_tupple = 3
+4: tupple[i] = 2
+5: element_tupple[j] = 3
+8	    for (int i = 0; i < cardinality; i++) {
+3: *element_tupple = 3
+4: tupple[i] = 2
+18	    return 0; // mutually exclusive
+3: *element_tupple = 3
+19	}
+3: *element_tupple = 3
+get_next_size_tupples (seq=0x7fffffffddc0, tupples=0x555555757260, num_ele=72, cardinality=2, sum=15, size=0x7fffffffddac)
+    at ./grid_sum.c:69
+69	                    (sum_tupple(tupples + tupple_i, cardinality) + seq_i) == sum ) {
+1: tupple_i = 0
+sum_tupple (tupple=0x555555757260, cardinality=2) at ./grid_sum.c:39
+39	    int i = 0;
+Run till exit from #0  sum_tupple (tupple=0x555555757260, cardinality=2) at ./grid_sum.c:39
+0x0000555555554ac5 in get_next_size_tupples (seq=0x7fffffffddc0, tupples=0x555555757260, num_ele=72, cardinality=2, sum=15, 
+    size=0x7fffffffddac) at ./grid_sum.c:69
+69	                    (sum_tupple(tupples + tupple_i, cardinality) + seq_i) == sum ) {
+1: tupple_i = 0
+Value returned is $4 = 3
+68	            if (!intersects(tupples, cardinality, tmp, 1) && 
+1: tupple_i = 0
+66	        for (seq_i = 0; seq_i < ARRAY_SIZE; seq_i++) {
+1: tupple_i = 0
+67	            int tmp [] = {seq[seq_i]};
+1: tupple_i = 0
+68	            if (!intersects(tupples, cardinality, tmp, 1) && 
+1: tupple_i = 0
+
+Breakpoint 2, intersects (tupple=0x555555757260, cardinality=2, element_tupple=0x7fffffffdd84, cardinality_et=1) at ./grid_sum.c:8
+8	    for (int i = 0; i < cardinality; i++) {
+3: *element_tupple = 4
+4: tupple[i] = 3
+9	        int num_matched = 0;
+3: *element_tupple = 4
+4: tupple[i] = 1
+10	        for (int j = 0; j < cardinality_et; j++) {
+3: *element_tupple = 4
+4: tupple[i] = 1
+5: element_tupple[j] = 4
+11	            if ( tupple[i] == element_tupple[j]) {
+3: *element_tupple = 4
+4: tupple[i] = 1
+5: element_tupple[j] = 4
+10	        for (int j = 0; j < cardinality_et; j++) {
+3: *element_tupple = 4
+4: tupple[i] = 1
+5: element_tupple[j] = 4
+8	    for (int i = 0; i < cardinality; i++) {
+3: *element_tupple = 4
+4: tupple[i] = 1
+9	        int num_matched = 0;
+3: *element_tupple = 4
+4: tupple[i] = 2
+10	        for (int j = 0; j < cardinality_et; j++) {
+3: *element_tupple = 4
+4: tupple[i] = 2
+5: element_tupple[j] = 830272768
+11	            if ( tupple[i] == element_tupple[j]) {
+3: *element_tupple = 4
+4: tupple[i] = 2
+5: element_tupple[j] = 4
+10	        for (int j = 0; j < cardinality_et; j++) {
+3: *element_tupple = 4
+4: tupple[i] = 2
+5: element_tupple[j] = 4
+8	    for (int i = 0; i < cardinality; i++) {
+3: *element_tupple = 4
+4: tupple[i] = 2
+18	    return 0; // mutually exclusive
+3: *element_tupple = 4
+19	}
+3: *element_tupple = 4
+get_next_size_tupples (seq=0x7fffffffddc0, tupples=0x555555757260, num_ele=72, cardinality=2, sum=15, size=0x7fffffffddac)
+    at ./grid_sum.c:69
+69	                    (sum_tupple(tupples + tupple_i, cardinality) + seq_i) == sum ) {
+1: tupple_i = 0
+68	            if (!intersects(tupples, cardinality, tmp, 1) && 
+1: tupple_i = 0
+66	        for (seq_i = 0; seq_i < ARRAY_SIZE; seq_i++) {
+1: tupple_i = 0
+67	            int tmp [] = {seq[seq_i]};
+1: tupple_i = 0
+68	            if (!intersects(tupples, cardinality, tmp, 1) && 
+1: tupple_i = 0
+
+Breakpoint 2, intersects (tupple=0x555555757260, cardinality=2, element_tupple=0x7fffffffdd84, cardinality_et=1)
+    at ./grid_sum.c:8
+8	    for (int i = 0; i < cardinality; i++) {
+3: *element_tupple = 5
+4: tupple[i] = 3
+9	        int num_matched = 0;
+3: *element_tupple = 5
+4: tupple[i] = 1
+10	        for (int j = 0; j < cardinality_et; j++) {
+3: *element_tupple = 5
+4: tupple[i] = 1
+5: element_tupple[j] = 5
+11	            if ( tupple[i] == element_tupple[j]) {
+3: *element_tupple = 5
+4: tupple[i] = 1
+5: element_tupple[j] = 5
+10	        for (int j = 0; j < cardinality_et; j++) {
+3: *element_tupple = 5
+4: tupple[i] = 1
+5: element_tupple[j] = 5
+8	    for (int i = 0; i < cardinality; i++) {
+3: *element_tupple = 5
+4: tupple[i] = 1
+9	        int num_matched = 0;
+3: *element_tupple = 5
+4: tupple[i] = 2
+10	        for (int j = 0; j < cardinality_et; j++) {
+3: *element_tupple = 5
+4: tupple[i] = 2
+5: element_tupple[j] = 830272768
+11	            if ( tupple[i] == element_tupple[j]) {
+3: *element_tupple = 5
+4: tupple[i] = 2
+5: element_tupple[j] = 5
+10	        for (int j = 0; j < cardinality_et; j++) {
+3: *element_tupple = 5
+4: tupple[i] = 2
+5: element_tupple[j] = 5
+8	    for (int i = 0; i < cardinality; i++) {
+3: *element_tupple = 5
+4: tupple[i] = 2
+18	    return 0; // mutually exclusive
+3: *element_tupple = 5
+19	}
+3: *element_tupple = 5
+get_next_size_tupples (seq=0x7fffffffddc0, tupples=0x555555757260, num_ele=72, cardinality=2, sum=15, size=0x7fffffffddac)
+    at ./grid_sum.c:69
+69	                    (sum_tupple(tupples + tupple_i, cardinality) + seq_i) == sum ) {
+1: tupple_i = 0
+68	            if (!intersects(tupples, cardinality, tmp, 1) && 
+1: tupple_i = 0
+66	        for (seq_i = 0; seq_i < ARRAY_SIZE; seq_i++) {
+1: tupple_i = 0
+67	            int tmp [] = {seq[seq_i]};
+1: tupple_i = 0
+68	            if (!intersects(tupples, cardinality, tmp, 1) && 
+1: tupple_i = 0
+
+Breakpoint 2, intersects (tupple=0x555555757260, cardinality=2, element_tupple=0x7fffffffdd84, cardinality_et=1)
+    at ./grid_sum.c:8
+8	    for (int i = 0; i < cardinality; i++) {
+3: *element_tupple = 6
+4: tupple[i] = 3
+9	        int num_matched = 0;
+3: *element_tupple = 6
+4: tupple[i] = 1
+10	        for (int j = 0; j < cardinality_et; j++) {
+3: *element_tupple = 6
+4: tupple[i] = 1
+5: element_tupple[j] = 6
+11	            if ( tupple[i] == element_tupple[j]) {
+3: *element_tupple = 6
+4: tupple[i] = 1
+5: element_tupple[j] = 6
+10	        for (int j = 0; j < cardinality_et; j++) {
+3: *element_tupple = 6
+4: tupple[i] = 1
+5: element_tupple[j] = 6
+8	    for (int i = 0; i < cardinality; i++) {
+3: *element_tupple = 6
+4: tupple[i] = 1
+9	        int num_matched = 0;
+3: *element_tupple = 6
+4: tupple[i] = 2
+10	        for (int j = 0; j < cardinality_et; j++) {
+3: *element_tupple = 6
+4: tupple[i] = 2
+5: element_tupple[j] = 830272768
+11	            if ( tupple[i] == element_tupple[j]) {
+3: *element_tupple = 6
+4: tupple[i] = 2
+5: element_tupple[j] = 6
+10	        for (int j = 0; j < cardinality_et; j++) {
+3: *element_tupple = 6
+4: tupple[i] = 2
+5: element_tupple[j] = 6
+8	    for (int i = 0; i < cardinality; i++) {
+3: *element_tupple = 6
+4: tupple[i] = 2
+18	    return 0; // mutually exclusive
+3: *element_tupple = 6
+19	}
+3: *element_tupple = 6
+get_next_size_tupples (seq=0x7fffffffddc0, tupples=0x555555757260, num_ele=72, cardinality=2, sum=15, size=0x7fffffffddac)
+    at ./grid_sum.c:69
+69	                    (sum_tupple(tupples + tupple_i, cardinality) + seq_i) == sum ) {
+1: tupple_i = 0
+68	            if (!intersects(tupples, cardinality, tmp, 1) && 
+1: tupple_i = 0
+66	        for (seq_i = 0; seq_i < ARRAY_SIZE; seq_i++) {
+1: tupple_i = 0
+67	            int tmp [] = {seq[seq_i]};
+1: tupple_i = 0
+68	            if (!intersects(tupples, cardinality, tmp, 1) && 
+1: tupple_i = 0
+
+Breakpoint 2, intersects (tupple=0x555555757260, cardinality=2, element_tupple=0x7fffffffdd84, cardinality_et=1)
+    at ./grid_sum.c:8
+8	    for (int i = 0; i < cardinality; i++) {
+3: *element_tupple = 7
+4: tupple[i] = 3
+9	        int num_matched = 0;
+3: *element_tupple = 7
+4: tupple[i] = 1
+10	        for (int j = 0; j < cardinality_et; j++) {
+3: *element_tupple = 7
+4: tupple[i] = 1
+5: element_tupple[j] = 7
+11	            if ( tupple[i] == element_tupple[j]) {
+3: *element_tupple = 7
+4: tupple[i] = 1
+5: element_tupple[j] = 7
+10	        for (int j = 0; j < cardinality_et; j++) {
+3: *element_tupple = 7
+4: tupple[i] = 1
+5: element_tupple[j] = 7
+8	    for (int i = 0; i < cardinality; i++) {
+3: *element_tupple = 7
+4: tupple[i] = 1
+9	        int num_matched = 0;
+3: *element_tupple = 7
+4: tupple[i] = 2
+10	        for (int j = 0; j < cardinality_et; j++) {
+3: *element_tupple = 7
+4: tupple[i] = 2
+5: element_tupple[j] = 830272768
+11	            if ( tupple[i] == element_tupple[j]) {
+3: *element_tupple = 7
+4: tupple[i] = 2
+5: element_tupple[j] = 7
+10	        for (int j = 0; j < cardinality_et; j++) {
+3: *element_tupple = 7
+4: tupple[i] = 2
+5: element_tupple[j] = 7
+8	    for (int i = 0; i < cardinality; i++) {
+3: *element_tupple = 7
+4: tupple[i] = 2
+18	    return 0; // mutually exclusive
+3: *element_tupple = 7
+19	}
+3: *element_tupple = 7
+get_next_size_tupples (seq=0x7fffffffddc0, tupples=0x555555757260, num_ele=72, cardinality=2, sum=15, size=0x7fffffffddac)
+    at ./grid_sum.c:69
+69	                    (sum_tupple(tupples + tupple_i, cardinality) + seq_i) == sum ) {
+1: tupple_i = 0
+68	            if (!intersects(tupples, cardinality, tmp, 1) && 
+1: tupple_i = 0
+66	        for (seq_i = 0; seq_i < ARRAY_SIZE; seq_i++) {
+1: tupple_i = 0
+67	            int tmp [] = {seq[seq_i]};
+1: tupple_i = 0
+68	            if (!intersects(tupples, cardinality, tmp, 1) && 
+1: tupple_i = 0
+
+Breakpoint 2, intersects (tupple=0x555555757260, cardinality=2, element_tupple=0x7fffffffdd84, cardinality_et=1)
+    at ./grid_sum.c:8
+8	    for (int i = 0; i < cardinality; i++) {
+3: *element_tupple = 8
+4: tupple[i] = 3
+9	        int num_matched = 0;
+3: *element_tupple = 8
+4: tupple[i] = 1
+10	        for (int j = 0; j < cardinality_et; j++) {
+3: *element_tupple = 8
+4: tupple[i] = 1
+5: element_tupple[j] = 8
+11	            if ( tupple[i] == element_tupple[j]) {
+3: *element_tupple = 8
+4: tupple[i] = 1
+5: element_tupple[j] = 8
+10	        for (int j = 0; j < cardinality_et; j++) {
+3: *element_tupple = 8
+4: tupple[i] = 1
+5: element_tupple[j] = 8
+8	    for (int i = 0; i < cardinality; i++) {
+3: *element_tupple = 8
+4: tupple[i] = 1
+9	        int num_matched = 0;
+3: *element_tupple = 8
+4: tupple[i] = 2
+10	        for (int j = 0; j < cardinality_et; j++) {
+3: *element_tupple = 8
+4: tupple[i] = 2
+5: element_tupple[j] = 830272768
+11	            if ( tupple[i] == element_tupple[j]) {
+3: *element_tupple = 8
+4: tupple[i] = 2
+5: element_tupple[j] = 8
+10	        for (int j = 0; j < cardinality_et; j++) {
+3: *element_tupple = 8
+4: tupple[i] = 2
+5: element_tupple[j] = 8
+8	    for (int i = 0; i < cardinality; i++) {
+3: *element_tupple = 8
+4: tupple[i] = 2
+18	    return 0; // mutually exclusive
+3: *element_tupple = 8
+19	}
+3: *element_tupple = 8
+get_next_size_tupples (seq=0x7fffffffddc0, tupples=0x555555757260, num_ele=72, cardinality=2, sum=15, size=0x7fffffffddac)
+    at ./grid_sum.c:69
+69	                    (sum_tupple(tupples + tupple_i, cardinality) + seq_i) == sum ) {
+1: tupple_i = 0
+68	            if (!intersects(tupples, cardinality, tmp, 1) && 
+1: tupple_i = 0
+66	        for (seq_i = 0; seq_i < ARRAY_SIZE; seq_i++) {
+1: tupple_i = 0
+67	            int tmp [] = {seq[seq_i]};
+1: tupple_i = 0
+68	            if (!intersects(tupples, cardinality, tmp, 1) && 
+1: tupple_i = 0
+
+Breakpoint 2, intersects (tupple=0x555555757260, cardinality=2, element_tupple=0x7fffffffdd84, cardinality_et=1)
+    at ./grid_sum.c:8
+8	    for (int i = 0; i < cardinality; i++) {
+3: *element_tupple = 9
+4: tupple[i] = 3
+9	        int num_matched = 0;
+3: *element_tupple = 9
+4: tupple[i] = 1
+10	        for (int j = 0; j < cardinality_et; j++) {
+3: *element_tupple = 9
+4: tupple[i] = 1
+5: element_tupple[j] = 9
+11	            if ( tupple[i] == element_tupple[j]) {
+3: *element_tupple = 9
+4: tupple[i] = 1
+5: element_tupple[j] = 9
+10	        for (int j = 0; j < cardinality_et; j++) {
+3: *element_tupple = 9
+4: tupple[i] = 1
+5: element_tupple[j] = 9
+8	    for (int i = 0; i < cardinality; i++) {
+3: *element_tupple = 9
+4: tupple[i] = 1
+9	        int num_matched = 0;
+3: *element_tupple = 9
+4: tupple[i] = 2
+10	        for (int j = 0; j < cardinality_et; j++) {
+3: *element_tupple = 9
+4: tupple[i] = 2
+5: element_tupple[j] = 830272768
+11	            if ( tupple[i] == element_tupple[j]) {
+3: *element_tupple = 9
+4: tupple[i] = 2
+5: element_tupple[j] = 9
+10	        for (int j = 0; j < cardinality_et; j++) {
+3: *element_tupple = 9
+4: tupple[i] = 2
+5: element_tupple[j] = 9
+8	    for (int i = 0; i < cardinality; i++) {
+3: *element_tupple = 9
+4: tupple[i] = 2
+18	    return 0; // mutually exclusive
+3: *element_tupple = 9
+19	}
+3: *element_tupple = 9
+get_next_size_tupples (seq=0x7fffffffddc0, tupples=0x555555757260, num_ele=72, cardinality=2, sum=15, size=0x7fffffffddac)
+    at ./grid_sum.c:69
+69	                    (sum_tupple(tupples + tupple_i, cardinality) + seq_i) == sum ) {
+1: tupple_i = 0
+68	            if (!intersects(tupples, cardinality, tmp, 1) && 
+1: tupple_i = 0
+66	        for (seq_i = 0; seq_i < ARRAY_SIZE; seq_i++) {
+1: tupple_i = 0
+65	    for (; tupple_i < num_ele; tupple_i += cardinality) {
+1: tupple_i = 0
+66	        for (seq_i = 0; seq_i < ARRAY_SIZE; seq_i++) {
+1: tupple_i = 2
+67	            int tmp [] = {seq[seq_i]};
+1: tupple_i = 2
+68	            if (!intersects(tupples, cardinality, tmp, 1) && 
+1: tupple_i = 2
+
+Breakpoint 2, intersects (tupple=0x555555757260, cardinality=2, element_tupple=0x7fffffffdd84, cardinality_et=1)
+    at ./grid_sum.c:8
+8	    for (int i = 0; i < cardinality; i++) {
+3: *element_tupple = 1
+4: tupple[i] = 3
+9	        int num_matched = 0;
+3: *element_tupple = 1
+4: tupple[i] = 1
+10	        for (int j = 0; j < cardinality_et; j++) {
+3: *element_tupple = 1
+4: tupple[i] = 1
+5: element_tupple[j] = 1
+11	            if ( tupple[i] == element_tupple[j]) {
+3: *element_tupple = 1
+4: tupple[i] = 1
+5: element_tupple[j] = 1
+12	                if (++num_matched == cardinality_et)
+3: *element_tupple = 1
+4: tupple[i] = 1
+5: element_tupple[j] = 1
+13	                    return 1;   // intersects
+3: *element_tupple = 1
+4: tupple[i] = 1
+5: element_tupple[j] = 1
+19	}
+3: *element_tupple = 1
+get_next_size_tupples (seq=0x7fffffffddc0, tupples=0x555555757260, num_ele=72, cardinality=2, sum=15, size=0x7fffffffddac)
+    at ./grid_sum.c:66
+66	        for (seq_i = 0; seq_i < ARRAY_SIZE; seq_i++) {
+1: tupple_i = 2
+67	            int tmp [] = {seq[seq_i]};
+1: tupple_i = 2
+68	            if (!intersects(tupples, cardinality, tmp, 1) && 
+1: tupple_i = 2
+
+Breakpoint 2, intersects (tupple=0x555555757260, cardinality=2, element_tupple=0x7fffffffdd84, cardinality_et=1)
+    at ./grid_sum.c:8
+8	    for (int i = 0; i < cardinality; i++) {
+3: *element_tupple = 2
+4: tupple[i] = 1
+9	        int num_matched = 0;
+3: *element_tupple = 2
+4: tupple[i] = 1
+10	        for (int j = 0; j < cardinality_et; j++) {
+3: *element_tupple = 2
+4: tupple[i] = 1
+5: element_tupple[j] = 2
+11	            if ( tupple[i] == element_tupple[j]) {
+3: *element_tupple = 2
+4: tupple[i] = 1
+5: element_tupple[j] = 2
+10	        for (int j = 0; j < cardinality_et; j++) {
+3: *element_tupple = 2
+4: tupple[i] = 1
+5: element_tupple[j] = 2
+8	    for (int i = 0; i < cardinality; i++) {
+3: *element_tupple = 2
+4: tupple[i] = 1
+9	        int num_matched = 0;
+3: *element_tupple = 2
+4: tupple[i] = 2
+EOF [assumed Y]
+Reading symbols from grid_sum...done.
+[New LWP 3865]
+Core was generated by `./grid_sum'.
+Program terminated with signal SIGABRT, Aborted.
+#0  __GI_raise (sig=sig@entry=6) at ../sysdeps/unix/sysv/linux/raise.c:51
+51	../sysdeps/unix/sysv/linux/raise.c: No such file or directory.
+#0  __GI_raise (sig=sig@entry=6) at ../sysdeps/unix/sysv/linux/raise.c:51
+#1  0x00007f11c5dd2801 in __GI_abort () at abort.c:79
+#2  0x00007f11c5e1b897 in __libc_message (action=action@entry=do_abort, fmt=fmt@entry=0x7f11c5f48b9a "%s\n") at ../sysdeps/posix/libc_fatal.c:181
+#3  0x00007f11c5e2290a in malloc_printerr (str=str@entry=0x7f11c5f46ed3 "realloc(): invalid next size") at malloc.c:5350
+#4  0x00007f11c5e279b4 in _int_realloc (av=av@entry=0x7f11c617dc40 <main_arena>, oldp=oldp@entry=0x5587e70cd790, oldsize=oldsize@entry=32, nb=nb@entry=32) at malloc.c:4534
+#5  0x00007f11c5e2acfd in __GI___libc_realloc (oldmem=0x5587e70cd7a0, bytes=12) at malloc.c:3221
+#6  0x00005587e5f64b52 in get_next_size_tupples (seq=0x7ffeba23d7d0, tupples=0x5587e70cd260, num_ele=72, cardinality=2, sum=15, size=0x7ffeba23d7bc) at ./grid_sum.c:74
+#7  0x00005587e5f64e2f in main () at ./grid_sum.c:122
+Reading symbols from ./grid_sum...done.
+Breakpoint 1 at 0xa35: file ./grid_sum.c, line 61.
+Starting program: /opt/dev/Programs/C/arrays/grid_sum/grid_sum 
+
+Breakpoint 1, get_next_size_tupples (seq=0x7fffffffde60, tupples=0x555555757260, num_ele=72, cardinality=2, sum=15, size=0x7fffffffde4c) at ./grid_sum.c:61
+61	{
+62	    int tupple_i = 0;
+63	    int seq_i = 0;
+64	    int *next_tupples = NULL;
+65	    int *next_tupples2 = NULL;
+66	    *size = 0;
+67	    for (; tupple_i < num_ele; tupple_i += cardinality) {
+68	        for (seq_i = 0; seq_i < ARRAY_SIZE; seq_i++) {
+69	            int tmp [] = {seq[seq_i]};
+70	            if (!intersects(tupples + tupple_i, cardinality, tmp, 1) && 
+68	        for (seq_i = 0; seq_i < ARRAY_SIZE; seq_i++) {
+69	            int tmp [] = {seq[seq_i]};
+70	            if (!intersects(tupples + tupple_i, cardinality, tmp, 1) && 
+quit
+Reading symbols from ./grid_sum...done.
+Breakpoint 1 at 0xa35: file ./grid_sum.c, line 61.
+The program is not being run.
+Starting program: /opt/dev/Programs/C/arrays/grid_sum/grid_sum 
+
+Breakpoint 1, get_next_size_tupples (seq=0x7fffffffde60, tupples=0x555555757260, num_ele=72, cardinality=2, sum=15, size=0x7fffffffde4c) at ./grid_sum.c:61
+61	{
+62	    int tupple_i = 0;
+63	    int seq_i = 0;
+64	    int *next_tupples = NULL;
+65	    int *next_tupples2 = NULL;
+66	    *size = 0;
+67	    for (; tupple_i < num_ele; tupple_i += cardinality) {
+1: next_tupples2 = (int *) 0x0
+2: size = (int *) 0x7fffffffde4c
+warning: bad display number at or near 'size'
+3: *size = 0
+68	        for (seq_i = 0; seq_i < ARRAY_SIZE; seq_i++) {
+1: next_tupples2 = (int *) 0x0
+3: *size = 0
+69	            int tmp [] = {seq[seq_i]};
+1: next_tupples2 = (int *) 0x0
+3: *size = 0
+70	            if (!intersects(tupples + tupple_i, cardinality, tmp, 1) && 
+1: next_tupples2 = (int *) 0x0
+3: *size = 0
+68	        for (seq_i = 0; seq_i < ARRAY_SIZE; seq_i++) {
+1: next_tupples2 = (int *) 0x0
+3: *size = 0
+69	            int tmp [] = {seq[seq_i]};
+1: next_tupples2 = (int *) 0x0
+3: *size = 0
+70	            if (!intersects(tupples + tupple_i, cardinality, tmp, 1) && 
+1: next_tupples2 = (int *) 0x0
+3: *size = 0
+68	        for (seq_i = 0; seq_i < ARRAY_SIZE; seq_i++) {
+1: next_tupples2 = (int *) 0x0
+3: *size = 0
+69	            int tmp [] = {seq[seq_i]};
+1: next_tupples2 = (int *) 0x0
+3: *size = 0
+70	            if (!intersects(tupples + tupple_i, cardinality, tmp, 1) && 
+1: next_tupples2 = (int *) 0x0
+3: *size = 0
+Breakpoint 2 at 0x555555554b11: file ./grid_sum.c, line 73.
+Num     Type           Disp Enb Address            What
+1       breakpoint     keep y   0x0000555555554a35 in get_next_size_tupples at ./grid_sum.c:61
+	breakpoint already hit 1 time
+2       breakpoint     keep y   0x0000555555554b11 in get_next_size_tupples at ./grid_sum.c:73
+Continuing.
+
+Breakpoint 2, get_next_size_tupples (seq=0x7fffffffde60, tupples=0x555555757260, num_ele=72, cardinality=2, sum=15, size=0x7fffffffde4c) at ./grid_sum.c:73
+73	                next_tupples2 = (int *) realloc(next_tupples,(*size + cardinality + 1) * sizeof(int)); 
+1: next_tupples2 = (int *) 0x0
+3: *size = 0
+4: tupple_i = 6
+$1 = {1, 2, 1, 3, 1, 4, 1, 5, 1, 6, 1, 7, 1, 8, 1, 9, 2, 3, 2, 4, 2, 5, 2, 6, 2, 7, 2, 8, 2, 9, 3, 4, 3, 5, 3, 6, 3, 7, 3, 8, 3, 9, 4, 5, 4, 6, 4, 7, 4, 8, 4, 9, 5, 6, 5, 7, 5, 8, 5, 9, 6, 7, 6, 8, 6, 9, 
+  7, 8, 7, 9, 8, 9}
+74	                printf ("Allocated : %d bytes, at %p\n", (*size + cardinality + 1) * 4, next_tupples2);
+1: next_tupples2 = (int *) 0x555555757390
+3: *size = 0
+4: tupple_i = 6
+75	                printf ("next write at : %p\n", next_tupples2 + *size + i);
+1: next_tupples2 = (int *) 0x555555757390
+3: *size = 0
+4: tupple_i = 6
+0x555555757390:	0x00000000	0x00000000	0x00000000	0x00000000
+77	                for (i = 0; i < cardinality; i++) {
+1: next_tupples2 = (int *) 0x555555757390
+3: *size = 0
+4: tupple_i = 6
+78	                        next_tupples2[*size + i] = tupples[tupple_i + i] ;
+1: next_tupples2 = (int *) 0x555555757390
+3: *size = 0
+4: tupple_i = 6
+77	                for (i = 0; i < cardinality; i++) {
+1: next_tupples2 = (int *) 0x555555757390
+3: *size = 0
+4: tupple_i = 6
+0x555555757390:	0x00000001	0x00000000	0x00000000	0x00000000
+78	                        next_tupples2[*size + i] = tupples[tupple_i + i] ;
+1: next_tupples2 = (int *) 0x555555757390
+3: *size = 0
+4: tupple_i = 6
+77	                for (i = 0; i < cardinality; i++) {
+1: next_tupples2 = (int *) 0x555555757390
+3: *size = 0
+4: tupple_i = 6
+80	                next_tupples2[*size + i] = seq[seq_i];
+1: next_tupples2 = (int *) 0x555555757390
+3: *size = 0
+4: tupple_i = 6
+81	                printf("added (%d %d %d)\n", next_tupples2[*size + i-2], next_tupples2[*size + i-1], next_tupples2[*size + i]);
+1: next_tupples2 = (int *) 0x555555757390
+3: *size = 0
+4: tupple_i = 6
+0x555555757390:	0x00000001	0x00000005	0x00000009	0x00000000
+0x555555757390:	0x00000001	0x00000005	0x00000009	0x00000000
+0x5555557573a0:	0x00000000	0x00000000	0x00000411	0x00000000
+Continuing.
+
+Breakpoint 2, get_next_size_tupples (seq=0x7fffffffde60, tupples=0x555555757260, num_ele=72, cardinality=2, sum=15, size=0x7fffffffde4c) at ./grid_sum.c:73
+73	                next_tupples2 = (int *) realloc(next_tupples,(*size + cardinality + 1) * sizeof(int)); 
+1: next_tupples2 = (int *) 0x555555757390
+3: *size = 3
+4: tupple_i = 8
+74	                printf ("Allocated : %d bytes, at %p\n", (*size + cardinality + 1) * 4, next_tupples2);
+1: next_tupples2 = (int *) 0x555555757390
+3: *size = 3
+4: tupple_i = 8
+75	                printf ("next write at : %p\n", next_tupples2 + *size + i);
+1: next_tupples2 = (int *) 0x555555757390
+3: *size = 3
+4: tupple_i = 8
+77	                for (i = 0; i < cardinality; i++) {
+1: next_tupples2 = (int *) 0x555555757390
+3: *size = 3
+4: tupple_i = 8
+0x555555757390:	0x00000001	0x00000005	0x00000009	0x00000000
+0x5555557573a0:	0x00000000	0x00000000	0x00000411	0x00000000
+78	                        next_tupples2[*size + i] = tupples[tupple_i + i] ;
+1: next_tupples2 = (int *) 0x555555757390
+3: *size = 3
+4: tupple_i = 8
+77	                for (i = 0; i < cardinality; i++) {
+1: next_tupples2 = (int *) 0x555555757390
+3: *size = 3
+4: tupple_i = 8
+78	                        next_tupples2[*size + i] = tupples[tupple_i + i] ;
+1: next_tupples2 = (int *) 0x555555757390
+3: *size = 3
+4: tupple_i = 8
+77	                for (i = 0; i < cardinality; i++) {
+1: next_tupples2 = (int *) 0x555555757390
+3: *size = 3
+4: tupple_i = 8
+80	                next_tupples2[*size + i] = seq[seq_i];
+1: next_tupples2 = (int *) 0x555555757390
+3: *size = 3
+4: tupple_i = 8
+81	                printf("added (%d %d %d)\n", next_tupples2[*size + i-2], next_tupples2[*size + i-1], next_tupples2[*size + i]);
+1: next_tupples2 = (int *) 0x555555757390
+3: *size = 3
+4: tupple_i = 8
+0x555555757390:	0x00000001	0x00000005	0x00000009	0x00000001
+0x5555557573a0:	0x00000006	0x00000008	0x00000411	0x00000000
+Continuing.
+
+Breakpoint 2, get_next_size_tupples (seq=0x7fffffffde60, tupples=0x555555757260, num_ele=72, cardinality=2, sum=15, size=0x7fffffffde4c) at ./grid_sum.c:73
+73	                next_tupples2 = (int *) realloc(next_tupples,(*size + cardinality + 1) * sizeof(int)); 
+1: next_tupples2 = (int *) 0x555555757390
+3: *size = 6
+4: tupple_i = 12
+74	                printf ("Allocated : %d bytes, at %p\n", (*size + cardinality + 1) * 4, next_tupples2);
+1: next_tupples2 = (int *) 0x5555557577c0
+3: *size = 6
+4: tupple_i = 12
+75	                printf ("next write at : %p\n", next_tupples2 + *size + i);
+1: next_tupples2 = (int *) 0x5555557577c0
+3: *size = 6
+4: tupple_i = 12
+0x5555557577c0:	0x00000001	0x00000005	0x00000009	0x00000001
+0x5555557577d0:	0x00000006	0x00000008	0x00000000	0x00000000
+77	                for (i = 0; i < cardinality; i++) {
+1: next_tupples2 = (int *) 0x5555557577c0
+3: *size = 6
+4: tupple_i = 12
+78	                        next_tupples2[*size + i] = tupples[tupple_i + i] ;
+1: next_tupples2 = (int *) 0x5555557577c0
+3: *size = 6
+4: tupple_i = 12
+0x5555557577c0:	0x00000001	0x00000005	0x00000009	0x00000001
+0x5555557577d0:	0x00000006	0x00000008	0x00000000	0x00000000
+77	                for (i = 0; i < cardinality; i++) {
+1: next_tupples2 = (int *) 0x5555557577c0
+3: *size = 6
+4: tupple_i = 12
+78	                        next_tupples2[*size + i] = tupples[tupple_i + i] ;
+1: next_tupples2 = (int *) 0x5555557577c0
+3: *size = 6
+4: tupple_i = 12
+77	                for (i = 0; i < cardinality; i++) {
+1: next_tupples2 = (int *) 0x5555557577c0
+3: *size = 6
+4: tupple_i = 12
+80	                next_tupples2[*size + i] = seq[seq_i];
+1: next_tupples2 = (int *) 0x5555557577c0
+3: *size = 6
+4: tupple_i = 12
+81	                printf("added (%d %d %d)\n", next_tupples2[*size + i-2], next_tupples2[*size + i-1], next_tupples2[*size + i]);
+1: next_tupples2 = (int *) 0x5555557577c0
+3: *size = 6
+4: tupple_i = 12
+0x5555557577c0:	0x00000001	0x00000005	0x00000009	0x00000001
+0x5555557577d0:	0x00000006	0x00000008	0x00000001	0x00000008
+0x5555557577c0:	0x00000001	0x00000005	0x00000009	0x00000001
+0x5555557577d0:	0x00000006	0x00000008	0x00000001	0x00000008
+0x5555557577e0:	0x00000006	0x00000000	0x00020821	0x00000000
+0x5555557577f0:	0x00000000	0x00000000	0x00000000	0x00000000
+0x555555757800:	0x00000000	0x00000000	0x00000000	0x00000000
+Continuing.
+
+Breakpoint 2, get_next_size_tupples (seq=0x7fffffffde60, tupples=0x555555757260, num_ele=72, cardinality=2, sum=15, size=0x7fffffffde4c) at ./grid_sum.c:73
+73	                next_tupples2 = (int *) realloc(next_tupples,(*size + cardinality + 1) * sizeof(int)); 
+1: next_tupples2 = (int *) 0x5555557577c0
+3: *size = 9
+4: tupple_i = 14
+74	                printf ("Allocated : %d bytes, at %p\n", (*size + cardinality + 1) * 4, next_tupples2);
+1: next_tupples2 = (int *) 0x5555557577c0
+3: *size = 9
+4: tupple_i = 14
+75	                printf ("next write at : %p\n", next_tupples2 + *size + i);
+1: next_tupples2 = (int *) 0x5555557577c0
+3: *size = 9
+4: tupple_i = 14
+77	                for (i = 0; i < cardinality; i++) {
+1: next_tupples2 = (int *) 0x5555557577c0
+3: *size = 9
+4: tupple_i = 14
+78	                        next_tupples2[*size + i] = tupples[tupple_i + i] ;
+1: next_tupples2 = (int *) 0x5555557577c0
+3: *size = 9
+4: tupple_i = 14
+77	                for (i = 0; i < cardinality; i++) {
+1: next_tupples2 = (int *) 0x5555557577c0
+3: *size = 9
+4: tupple_i = 14
+78	                        next_tupples2[*size + i] = tupples[tupple_i + i] ;
+1: next_tupples2 = (int *) 0x5555557577c0
+3: *size = 9
+4: tupple_i = 14
+77	                for (i = 0; i < cardinality; i++) {
+1: next_tupples2 = (int *) 0x5555557577c0
+3: *size = 9
+4: tupple_i = 14
+80	                next_tupples2[*size + i] = seq[seq_i];
+1: next_tupples2 = (int *) 0x5555557577c0
+3: *size = 9
+4: tupple_i = 14
+81	                printf("added (%d %d %d)\n", next_tupples2[*size + i-2], next_tupples2[*size + i-1], next_tupples2[*size + i]);
+1: next_tupples2 = (int *) 0x5555557577c0
+3: *size = 9
+4: tupple_i = 14
+0x5555557577c0:	0x00000001	0x00000005	0x00000009	0x00000001
+0x5555557577d0:	0x00000006	0x00000008	0x00000001	0x00000008
+0x5555557577e0:	0x00000006	0x00000001	0x00000009	0x00000005
+0x5555557577f0:	0x00000000	0x00000000	0x00020811	0x00000000
+0x555555757800:	0x00000000	0x00000000	0x00000000	0x00000000
+Continuing.
+
+Breakpoint 2, get_next_size_tupples (seq=0x7fffffffde60, tupples=0x555555757260, num_ele=72, cardinality=2, sum=15, size=0x7fffffffde4c) at ./grid_sum.c:73
+73	                next_tupples2 = (int *) realloc(next_tupples,(*size + cardinality + 1) * sizeof(int)); 
+1: next_tupples2 = (int *) 0x5555557577c0
+3: *size = 12
+4: tupple_i = 18
+Continuing.
+
+Breakpoint 2, get_next_size_tupples (seq=0x7fffffffde60, tupples=0x555555757260, num_ele=72, cardinality=2, sum=15, size=0x7fffffffde4c) at ./grid_sum.c:73
+73	                next_tupples2 = (int *) realloc(next_tupples,(*size + cardinality + 1) * sizeof(int)); 
+1: next_tupples2 = (int *) 0x5555557577c0
+3: *size = 15
+4: tupple_i = 20
+Continuing.
+
+Breakpoint 2, get_next_size_tupples (seq=0x7fffffffde60, tupples=0x555555757260, num_ele=72, cardinality=2, sum=15, size=0x7fffffffde4c) at ./grid_sum.c:73
+73	                next_tupples2 = (int *) realloc(next_tupples,(*size + cardinality + 1) * sizeof(int)); 
+1: next_tupples2 = (int *) 0x5555557577c0
+3: *size = 18
+4: tupple_i = 22
+Continuing.
+
+Breakpoint 2, get_next_size_tupples (seq=0x7fffffffde60, tupples=0x555555757260, num_ele=72, cardinality=2, sum=15, size=0x7fffffffde4c) at ./grid_sum.c:73
+73	                next_tupples2 = (int *) realloc(next_tupples,(*size + cardinality + 1) * sizeof(int)); 
+1: next_tupples2 = (int *) 0x5555557577c0
+3: *size = 21
+4: tupple_i = 24
+Continuing.
+
+Breakpoint 2, get_next_size_tupples (seq=0x7fffffffde60, tupples=0x555555757260, num_ele=72, cardinality=2, sum=15, size=0x7fffffffde4c) at ./grid_sum.c:73
+73	                next_tupples2 = (int *) realloc(next_tupples,(*size + cardinality + 1) * sizeof(int)); 
+1: next_tupples2 = (int *) 0x5555557577c0
+3: *size = 24
+4: tupple_i = 26
+Continuing.
+
+Breakpoint 2, get_next_size_tupples (seq=0x7fffffffde60, tupples=0x555555757260, num_ele=72, cardinality=2, sum=15, size=0x7fffffffde4c) at ./grid_sum.c:73
+73	                next_tupples2 = (int *) realloc(next_tupples,(*size + cardinality + 1) * sizeof(int)); 
+1: next_tupples2 = (int *) 0x5555557577c0
+3: *size = 27
+4: tupple_i = 28
+0x5555557577c0:	0x00000001	0x00000005	0x00000009	0x00000001
+0x5555557577d0:	0x00000006	0x00000008	0x00000001	0x00000008
+0x5555557577e0:	0x00000006	0x00000001	0x00000009	0x00000005
+0x5555557577f0:	0x00000002	0x00000004	0x00000009	0x00000002
+0x555555757800:	0x00000005	0x00000008	0x00000002	0x00000006
+0x555555757810:	0x00000007	0x00000002	0x00000007	0x00000006
+0x555555757820:	0x00000002	0x00000008	0x00000005	0x00000000
+0x555555757830:	0x00000000	0x00000000
+74	                printf ("Allocated : %d bytes, at %p\n", (*size + cardinality + 1) * 4, next_tupples2);
+1: next_tupples2 = (int *) 0x5555557577c0
+3: *size = 27
+4: tupple_i = 28
+75	                printf ("next write at : %p\n", next_tupples2 + *size + i);
+1: next_tupples2 = (int *) 0x5555557577c0
+3: *size = 27
+4: tupple_i = 28
+77	                for (i = 0; i < cardinality; i++) {
+1: next_tupples2 = (int *) 0x5555557577c0
+3: *size = 27
+4: tupple_i = 28
+78	                        next_tupples2[*size + i] = tupples[tupple_i + i] ;
+1: next_tupples2 = (int *) 0x5555557577c0
+3: *size = 27
+4: tupple_i = 28
+77	                for (i = 0; i < cardinality; i++) {
+1: next_tupples2 = (int *) 0x5555557577c0
+3: *size = 27
+4: tupple_i = 28
+78	                        next_tupples2[*size + i] = tupples[tupple_i + i] ;
+1: next_tupples2 = (int *) 0x5555557577c0
+3: *size = 27
+4: tupple_i = 28
+77	                for (i = 0; i < cardinality; i++) {
+1: next_tupples2 = (int *) 0x5555557577c0
+3: *size = 27
+4: tupple_i = 28
+80	                next_tupples2[*size + i] = seq[seq_i];
+1: next_tupples2 = (int *) 0x5555557577c0
+3: *size = 27
+4: tupple_i = 28
+81	                printf("added (%d %d %d)\n", next_tupples2[*size + i-2], next_tupples2[*size + i-1], next_tupples2[*size + i]);
+1: next_tupples2 = (int *) 0x5555557577c0
+3: *size = 27
+4: tupple_i = 28
+82	                *size += (cardinality + 1);
+1: next_tupples2 = (int *) 0x5555557577c0
+3: *size = 27
+4: tupple_i = 28
+83	                next_tupples = next_tupples2;
+1: next_tupples2 = (int *) 0x5555557577c0
+3: *size = 30
+4: tupple_i = 28
+0x5555557577c0:	0x00000001	0x00000005	0x00000009	0x00000001
+0x5555557577d0:	0x00000006	0x00000008	0x00000001	0x00000008
+0x5555557577e0:	0x00000006	0x00000001	0x00000009	0x00000005
+0x5555557577f0:	0x00000002	0x00000004	0x00000009	0x00000002
+0x555555757800:	0x00000005	0x00000008	0x00000002	0x00000006
+0x555555757810:	0x00000007	0x00000002	0x00000007	0x00000006
+0x555555757820:	0x00000002	0x00000008	0x00000005	0x00000002
+0x555555757830:	0x00000009	0x00000004
+0x5555557577c0:	0x00000001	0x00000005	0x00000009	0x00000001
+0x5555557577d0:	0x00000006	0x00000008	0x00000001	0x00000008
+0x5555557577e0:	0x00000006	0x00000001	0x00000009	0x00000005
+0x5555557577f0:	0x00000002	0x00000004	0x00000009	0x00000002
+0x555555757800:	0x00000005	0x00000008	0x00000002	0x00000006
+0x555555757810:	0x00000007	0x00000002	0x00000007	0x00000006
+0x555555757820:	0x00000002	0x00000008	0x00000005	0x00000002
+0x555555757830:	0x00000009	0x00000004	0x000207d1	0x00000000
+0x555555757840:	0x00000000	0x00000000	0x00000000	0x00000000
+0x555555757850:	0x00000000	0x00000000	0x00000000	0x00000000
+Starting program: /opt/dev/Programs/C/arrays/grid_sum/grid_sum 
+
+Breakpoint 2, get_next_size_tupples (seq=0x7fffffffde60, tupples=0x555555757260, num_ele=72, cardinality=2, sum=15, size=0x7fffffffde4c) at ./grid_sum.c:73
+73	                next_tupples2 = (int *) realloc(next_tupples,(*size + cardinality + 1) * sizeof(int)); 
+1: next_tupples2 = (int *) 0x0
+3: *size = 0
+4: tupple_i = 6
+Num     Type           Disp Enb Address            What
+2       breakpoint     keep y   0x0000555555554b11 in get_next_size_tupples at ./grid_sum.c:73
+	breakpoint already hit 1 time
+Breakpoint 3 at 0x5555555549a0: file ./grid_sum.c, line 48.
+Continuing.
+
+Breakpoint 3, display_tupples (tupples=0x5555557577c0, num_elements=72, cardinality=3) at ./grid_sum.c:48
+48	    int i = 0;
+$2 = {1, 5, 9, 1, 6, 8, 1, 8, 6, 1, 9, 5, 2, 4, 9, 2, 5, 8, 2, 6, 7, 2, 7, 6, 2, 8, 5, 2, 9, 4, 3, 4, 8, 3, 5, 7, 3, 7, 5, 3, 8, 4, 4, 5, 6, 4, 6, 5, 4, 8, 3, 4, 9, 2, 5, 6, 4, 5, 7, 3, 5, 8, 2, 5, 9, 1, 
+  6, 7, 2, 6, 8, 1}
+Reading symbols from ./grid_sum...done.
+Reading symbols from ./grid_sum...done.
+Breakpoint 1 at 0xee6: file ./grid_sum.c, line 125.
+The program is not being run.
+Starting program: /opt/dev/Programs/C/arrays/grid_sum/grid_sum 
+
+Breakpoint 1, get_all_solutions (tupples=0x5555557577a0, num_ele=72, cardinality=3, num_final_tupples=3) at ./grid_sum.c:125
+125	{
+$1 = {1, 5, 9, 1, 6, 8, 1, 8, 6, 1, 9, 5, 2, 4, 9, 2, 5, 8, 2, 6, 7, 2, 7, 6, 2, 8, 5, 2, 9, 4, 3, 4, 8, 3, 5, 7, 3, 7, 5, 3, 8, 4, 4, 5, 6, 4, 6, 5, 4, 8, 3, 4, 9, 2, 5, 6, 4, 5, 7, 3, 5, 8, 2, 5, 9, 1, 
+  6, 7, 2, 6, 8, 1}
+126	    int tupple_i = 0;
+127	    int tupple_f = 0;
+128	    int *final_tupples = (int *) calloc (cardinality * num_final_tupples, sizeof(int));
+129	    int num_tupples_in_final = 0;
+130	    printf("................................................................\n");
+131	    for (tupple_i = 0; tupple_i < num_ele; tupple_i =+ cardinality) {
+132	        int tupple_intersects = 0;
+133	        for (tupple_f = 0; tupple_f < num_tupples_in_final; tupple_f += cardinality) {
+143	        if (!tupple_intersects) {
+144	            int i = 0;
+145	            for (i=0; i < cardinality; i++) {
+146	                final_tupples[num_tupples_in_final * cardinality + i] = tupples[ tupple_i + i ];
+145	            for (i=0; i < cardinality; i++) {
+146	                final_tupples[num_tupples_in_final * cardinality + i] = tupples[ tupple_i + i ];
+145	            for (i=0; i < cardinality; i++) {
+146	                final_tupples[num_tupples_in_final * cardinality + i] = tupples[ tupple_i + i ];
+145	            for (i=0; i < cardinality; i++) {
+148	            num_tupples_in_final++;
+$2 = {1, 5, 9}
+Breakpoint 2 at 0x55555555505b: file ./grid_sum.c, line 146.
+Continuing.
+
+Program received signal SIGINT, Interrupt.
+0x00007ffff7af4154 in __GI___libc_write (fd=1, buf=0x555555757390, nbytes=12) at ../sysdeps/unix/sysv/linux/write.c:27
+27	../sysdeps/unix/sysv/linux/write.c: No such file or directory.
+Please answer y or n.
+Please answer y or n.
+Reading symbols from ./grid_sum...done.
+Breakpoint 1 at 0x1092: file ./grid_sum.c, line 150.
+Starting program: /opt/dev/Programs/C/arrays/grid_sum/grid_sum 
+
+Breakpoint 1, get_all_solutions (tupples=0x5555557577a0, num_ele=72, cardinality=3, num_final_tupples=3) at ./grid_sum.c:150
+150	            if (intersects(tupples + tupple_i, cardinality, tmp, cardinality)) {
+$1 = {1, 5, 9, 1, 6, 8, 1, 8, 6, 1, 9, 5, 2, 4, 9, 2, 5, 8, 2, 6, 7, 2, 7, 6, 2, 8, 5, 2, 9, 4, 3, 4, 8, 3, 5, 7, 3, 7, 5, 3, 8, 4, 4, 5, 6, 4, 6, 5, 4, 8, 3, 4, 9, 2, 5, 6, 4, 5, 7, 3, 5, 8, 2, 5, 9, 1, 
+  6, 7, 2, 6, 8, 1}
+$2 = 3
+Only values in memory can be extended with '@'.
+$3 = {1, 6, 8, 1, 8, 6, 1, 9, 5, 2, 4, 9, 2, 5, 8, 2, 6, 7, 2, 7, 6, 2, 8, 5, 2, 9, 4, 3, 4, 8, 3, 5, 7, 3, 7, 5, 3, 8, 4, 4, 5, 6, 4, 6, 5, 4, 8, 3, 4, 9, 2, 5, 6, 4, 5, 7, 3, 5, 8, 2, 5, 9, 1, 6, 7, 2, 
+  6, 8, 1, 0, 0, 49}
+$4 = {1, 6, 8, 1, 8, 6, 1, 9, 5, 2, 4, 9, 2, 5, 8, 2, 6, 7, 2, 7, 6, 2, 8, 5, 2, 9, 4, 3, 4, 8, 3, 5, 7, 3, 7, 5, 3, 8, 4, 4, 5, 6, 4, 6, 5, 4, 8, 3, 4, 9, 2, 5, 6, 4, 5, 7, 3, 5, 8, 2, 5, 9, 1, 6, 7, 2, 
+  6, 8}
+$5 = {1, 5, 9}
+$6 = {1, 5, 9, 0, 0, 0}
+Starting program: /opt/dev/Programs/C/arrays/grid_sum/grid_sum 
+
+Breakpoint 1, get_all_solutions (tupples=0x5555557577a0, num_ele=72, cardinality=3, num_final_tupples=3) at ./grid_sum.c:150
+150	            if (intersects(tupples + tupple_i, cardinality, tmp, cardinality)) {
+$7 = 3
+$8 = {1, 5, 9, 0, 0, 0, 0, 0, 0, 0}
+Continuing.
+
+Breakpoint 1, get_all_solutions (tupples=0x5555557577a0, num_ele=72, cardinality=3, num_final_tupples=3) at ./grid_sum.c:150
+150	            if (intersects(tupples + tupple_i, cardinality, tmp, cardinality)) {
+$9 = 3
+Continuing.
+
+Breakpoint 1, get_all_solutions (tupples=0x5555557577a0, num_ele=72, cardinality=3, num_final_tupples=3) at ./grid_sum.c:150
+150	            if (intersects(tupples + tupple_i, cardinality, tmp, cardinality)) {
+Continuing.
+
+Breakpoint 1, get_all_solutions (tupples=0x5555557577a0, num_ele=72, cardinality=3, num_final_tupples=3) at ./grid_sum.c:150
+150	            if (intersects(tupples + tupple_i, cardinality, tmp, cardinality)) {
+Continuing.
+
+Breakpoint 1, get_all_solutions (tupples=0x5555557577a0, num_ele=72, cardinality=3, num_final_tupples=3) at ./grid_sum.c:150
+150	            if (intersects(tupples + tupple_i, cardinality, tmp, cardinality)) {
+Continuing.
+
+Breakpoint 1, get_all_solutions (tupples=0x5555557577a0, num_ele=72, cardinality=3, num_final_tupples=3) at ./grid_sum.c:150
+150	            if (intersects(tupples + tupple_i, cardinality, tmp, cardinality)) {
+Continuing.
+
+Breakpoint 1, get_all_solutions (tupples=0x5555557577a0, num_ele=72, cardinality=3, num_final_tupples=3) at ./grid_sum.c:150
+150	            if (intersects(tupples + tupple_i, cardinality, tmp, cardinality)) {
+$10 = {1, 5, 9, 0, 0, 0, 0, 0, 0, 0}
+Continuing.
+
+Breakpoint 1, get_all_solutions (tupples=0x5555557577a0, num_ele=72, cardinality=3, num_final_tupples=3) at ./grid_sum.c:150
+150	            if (intersects(tupples + tupple_i, cardinality, tmp, cardinality)) {
+$11 = {1, 5, 9, 0, 0, 0, 0, 0, 0, 0}
+$12 = {1, 5, 9, 0, 0, 0, 0, 0, 0, 0}
+Continuing.
+
+Breakpoint 1, get_all_solutions (tupples=0x5555557577a0, num_ele=72, cardinality=3, num_final_tupples=3) at ./grid_sum.c:150
+150	            if (intersects(tupples + tupple_i, cardinality, tmp, cardinality)) {
+Continuing.
+
+Breakpoint 1, get_all_solutions (tupples=0x5555557577a0, num_ele=72, cardinality=3, num_final_tupples=3) at ./grid_sum.c:150
+150	            if (intersects(tupples + tupple_i, cardinality, tmp, cardinality)) {
+Continuing.
+
+Breakpoint 1, get_all_solutions (tupples=0x5555557577a0, num_ele=72, cardinality=3, num_final_tupples=3) at ./grid_sum.c:150
+150	            if (intersects(tupples + tupple_i, cardinality, tmp, cardinality)) {
+Continuing.
+
+Breakpoint 1, get_all_solutions (tupples=0x5555557577a0, num_ele=72, cardinality=3, num_final_tupples=3) at ./grid_sum.c:150
+150	            if (intersects(tupples + tupple_i, cardinality, tmp, cardinality)) {
+Continuing.
+
+Breakpoint 1, get_all_solutions (tupples=0x5555557577a0, num_ele=72, cardinality=3, num_final_tupples=3) at ./grid_sum.c:150
+150	            if (intersects(tupples + tupple_i, cardinality, tmp, cardinality)) {
+Continuing.
+
+Breakpoint 1, get_all_solutions (tupples=0x5555557577a0, num_ele=72, cardinality=3, num_final_tupples=3) at ./grid_sum.c:150
+150	            if (intersects(tupples + tupple_i, cardinality, tmp, cardinality)) {
+Continuing.
+
+Breakpoint 1, get_all_solutions (tupples=0x5555557577a0, num_ele=72, cardinality=3, num_final_tupples=3) at ./grid_sum.c:150
+150	            if (intersects(tupples + tupple_i, cardinality, tmp, cardinality)) {
+Continuing.
+
+Breakpoint 1, get_all_solutions (tupples=0x5555557577a0, num_ele=72, cardinality=3, num_final_tupples=3) at ./grid_sum.c:150
+150	            if (intersects(tupples + tupple_i, cardinality, tmp, cardinality)) {
+Continuing.
+
+Breakpoint 1, get_all_solutions (tupples=0x5555557577a0, num_ele=72, cardinality=3, num_final_tupples=3) at ./grid_sum.c:150
+150	            if (intersects(tupples + tupple_i, cardinality, tmp, cardinality)) {
+Continuing.
+
+Breakpoint 1, get_all_solutions (tupples=0x5555557577a0, num_ele=72, cardinality=3, num_final_tupples=3) at ./grid_sum.c:150
+150	            if (intersects(tupples + tupple_i, cardinality, tmp, cardinality)) {
+$13 = {1, 5, 9, 0, 0, 0, 0, 0, 0, 0}
+Reading symbols from ./grid_sum...done.
+Breakpoint 1 at 0x106f: file ./grid_sum.c, line 154.
+Starting program: /opt/dev/Programs/C/arrays/grid_sum/grid_sum 
+
+Breakpoint 1, get_all_solutions (tupples=0x5555557577a0, num_ele=72, cardinality=3, num_final_tupples=3) at ./grid_sum.c:154
+154	                final_tupples[num_tupples_in_final * cardinality + i] = tupples[ tupple_i + i ];
+1: tupple_i = 0
+2: tupple_f = 0
+153	            for (i=0; i < cardinality; i++) {
+1: tupple_i = 0
+2: tupple_f = 0
+
+Breakpoint 1, get_all_solutions (tupples=0x5555557577a0, num_ele=72, cardinality=3, num_final_tupples=3) at ./grid_sum.c:154
+154	                final_tupples[num_tupples_in_final * cardinality + i] = tupples[ tupple_i + i ];
+1: tupple_i = 0
+2: tupple_f = 0
+153	            for (i=0; i < cardinality; i++) {
+1: tupple_i = 0
+2: tupple_f = 0
+
+Breakpoint 1, get_all_solutions (tupples=0x5555557577a0, num_ele=72, cardinality=3, num_final_tupples=3) at ./grid_sum.c:154
+154	                final_tupples[num_tupples_in_final * cardinality + i] = tupples[ tupple_i + i ];
+1: tupple_i = 0
+2: tupple_f = 0
+153	            for (i=0; i < cardinality; i++) {
+1: tupple_i = 0
+2: tupple_f = 0
+156	            num_tupples_in_final++;
+1: tupple_i = 0
+2: tupple_f = 0
+3: num_tupples_in_final = 0
+159	        if (num_tupples_in_final == num_final_tupples) {
+1: tupple_i = 0
+2: tupple_f = 0
+3: num_tupples_in_final = 1
+141	    for (tupple_i = 0; tupple_i < num_ele; tupple_i =+ cardinality) {
+1: tupple_i = 0
+2: tupple_f = 0
+3: num_tupples_in_final = 1
+142	        int tupple_intersects = 0;
+1: tupple_i = 3
+2: tupple_f = 0
+3: num_tupples_in_final = 1
+143	        for (tupple_f = 0; tupple_f < num_tupples_in_final; tupple_f += cardinality) {
+1: tupple_i = 3
+2: tupple_f = 0
+3: num_tupples_in_final = 1
+144	            printf ("tupple_i: %d, tupple_f: %d num_tupples_in_final: %d\n", tupple_i, tupple_f, num_tupples_in_final);
+1: tupple_i = 3
+2: tupple_f = 0
+3: num_tupples_in_final = 1
+145	            if (intersects(tupples + tupple_i, cardinality, final_tupples + tupple_f, cardinality)) {
+1: tupple_i = 3
+2: tupple_f = 0
+3: num_tupples_in_final = 1
+No symbol "tupple" in current context.
+$1 = {1, 6, 8}
+$2 = {1, 5, 9}
+146	                tupple_intersects = 1;
+1: tupple_i = 3
+2: tupple_f = 0
+3: num_tupples_in_final = 1
+147	                break;
+1: tupple_i = 3
+2: tupple_f = 0
+3: num_tupples_in_final = 1
+150	        printf("................................................................\n");
+1: tupple_i = 3
+2: tupple_f = 0
+3: num_tupples_in_final = 1
+151	        if (!tupple_intersects) {
+1: tupple_i = 3
+2: tupple_f = 0
+3: num_tupples_in_final = 1
+159	        if (num_tupples_in_final == num_final_tupples) {
+1: tupple_i = 3
+2: tupple_f = 0
+3: num_tupples_in_final = 1
+141	    for (tupple_i = 0; tupple_i < num_ele; tupple_i =+ cardinality) {
+1: tupple_i = 3
+2: tupple_f = 0
+3: num_tupples_in_final = 1
+142	        int tupple_intersects = 0;
+1: tupple_i = 3
+2: tupple_f = 0
+3: num_tupples_in_final = 1
+143	        for (tupple_f = 0; tupple_f < num_tupples_in_final; tupple_f += cardinality) {
+1: tupple_i = 3
+2: tupple_f = 0
+3: num_tupples_in_final = 1
+144	            printf ("tupple_i: %d, tupple_f: %d num_tupples_in_final: %d\n", tupple_i, tupple_f, num_tupples_in_final);
+1: tupple_i = 3
+2: tupple_f = 0
+3: num_tupples_in_final = 1
+$3 = 3
+Please answer y or n.
+Please answer y or n.
+Please answer y or n.
+Please answer y or n.
+Please answer y or n.
+Please answer y or n.

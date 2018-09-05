@@ -1,0 +1,83 @@
+Reading symbols from ./BFS...done.
+Breakpoint 1 at 0x11c8: file bst_topview.c, line 146.
+Starting program: /opt/dev/Programs/C/Trees/BST/BFS/BFS 5 3 6 2 4 8
+
+Breakpoint 1, BFS_traverse (pbfs_queue=0x7fffffffbe40) at bst_topview.c:146
+warning: Source file is more recent than executable.
+146	   while(!BFS_queue_empty(pbfs_queue)) {
+1: *pbfs_queue = {H = 0x7fffffffbe58, T = 0x7fffffffbe50, Q = {0x555555757260, 0x0 <repeats 636 times>, 0x7ffff7fd6000, 0x7fffffffd5a0, 0x7fffffffd2a0, 0x7fffffffd688, 0x2, 0x801, 
+    0x7ffff7ddbee6 <_dl_map_object_from_fd+1766>, 0x0, 0x1e7000, 0x1e6aa0, 0x1e6aa0, 0x0, 0x5, 0x3e7000, 0x3ed000, 0x3ec860, 0x3f0ae0, 0x1e7000, 0x3, 0x0 <repeats 25 times>, 0x2000, 0x49a, 0x0, 0x0, 
+    0x7ffff7ffe170, 0x1, 0x7ffff7df0537 <malloc+135>, 0x0, 0x0, 0x9, 0x7ffff7de1391 <_dl_new_object+769>, 0x0, 0x1f, 0x7ffff7ffedd0, 0x2f, 0x5555555543f1, 0x0, 0x0, 0x0, 0x7fffffffd5a0, 
+    0x7ffff7de101e <_dl_add_to_namespace_list+30>, 0x7ffff7fd6000, 0x7fffffffd5a0, 0x37ffff1a0, 0x7ffff7ddc3c7 <_dl_map_object_from_fd+3015>, 0x1, 0x300000000, 0x7ffff7dd4ae0, 
+    0x7ffff7de6754 <_dl_name_match_p+84>, 0x7ffff7dd1000 <initial+640>, 0x7ffff79fb75a, 0x0, 0x7ffff7ddde8d <_dl_map_object+141>, 0x7fffffffd640, 0x1, 0x5fd35, 0x7ffff7ffe140 <_r_debug>, 0x7ffff7ffedd0, 
+    0x300000000, 0x5555555543f1, 0x7fffffffd270, 0x801, 0x5fd35, 0x1, 0x81ed, 0x0, 0x0, 0x1efbd0, 0x1000, 0xf80, 0x5b570943, 0x2fbb37e4, 0x5ad5041c, 0x0, 0x5b3cc9fa, 0x169b325d, 0x0, 0x0, 0x0, 
+    0x7fff00000000, 0x5555555543f1, 0x7ffff7ffe170, 0x0, 0x7ffff7ffd060 <_rtld_global>, 0x7fffffffd640, 0x0, 0x7ffff7dddffc <_dl_map_object+508>, 0x1, 0x0, 0x7fffffffd638, 0x0, 0x0, 0x1, 0x0, 0xa, 
+    0x7ffff7ffedd0, 0x7fffffffd620, 0x7fffffffd630, 0x7fffffffd62f, 0x0, 0x0, 0x0, 0x0, 0x7ffff7ffedd0, 0x7fffffffdf40, 0x340, 0x3010102464c457f, 0x0, 0x1003e0003, 0x21cb0, 0x40, 0x1ee990, 
+    0x38004000000000, 0x4800490040000a, 0x400000006, 0x40, 0x40, 0x40, 0x230, 0x230, 0x8, 0x400000003, 0x1bdd50, 0x1bdd50, 0x1bdd50, 0x1c, 0x1c, 0x10, 0x500000001, 0x0, 0x0, 0x0, 0x1e6aa0, 0x1e6aa0, 
+    0x200000, 0x600000001, 0x1e7620, 0x3e7620, 0x3e7620, 0x5240, 0x94c0, 0x200000, 0x600000002, 0x1eab80, 0x3eab80, 0x3eab80, 0x1e0, 0x1e0, 0x8, 0x400000004, 0x270, 0x270, 0x270, 0x44, 0x44, 0x4, 
+    0x400000007, 0x1e7620, 0x3e7620, 0x3e7620, 0x10, 0x90, 0x8, 0x46474e550, 0x1bdd6c, 0x1bdd6c, 0x1bdd6c, 0x59dc, 0x59dc, 0x4, 0x66474e551, 0x0, 0x0, 0x0, 0x7fffffffdbd0, 0x7fffffffdc30, 0x0, 
+    0x7ffff79fb75a, 0x7fffffffd9d0, 0x7ffff79f59d0...}}
+Reading symbols from ./BFS...done.
+Quit
+Breakpoint 1 at 0x1208: file bst_topview.c, line 146.
+Starting program: /opt/dev/Programs/C/Trees/BST/BFS/BFS 5 3 6 2 4 8
+
+Breakpoint 1, BFS_traverse (pbfs_queue=0x7fffffffbe40) at bst_topview.c:146
+146	   while(!BFS_queue_empty(pbfs_queue)) {
+1: *pbfs_queue = {H = 0x7fffffffbe58, T = 0x7fffffffbe50, Q = {0x555555757260, 0x0 <repeats 1023 times>}}
+147	        struct bt_node *parent = BFS_dequeue(pbfs_queue);
+1: *pbfs_queue = {H = 0x7fffffffbe58, T = 0x7fffffffbe50, Q = {0x555555757260, 0x0 <repeats 1023 times>}}
+$1 = (struct bt_node *) 0x555555757260
+$2 = {lt = 0x555555757280, rt = 0x5555557572a0, v = 5}
+151	        if (parent->lt) {
+1: *pbfs_queue = {H = 0x7fffffffbe58, T = 0x7fffffffbe58, Q = {0x555555757260, 0x0 <repeats 1023 times>}}
+152	            BFS_enqueue(pbfs_queue, parent->lt);
+1: *pbfs_queue = {H = 0x7fffffffbe58, T = 0x7fffffffbe58, Q = {0x555555757260, 0x0 <repeats 1023 times>}}
+155	        if (parent->rt) {
+1: *pbfs_queue = {H = 0x7fffffffbe60, T = 0x7fffffffbe58, Q = {0x555555757260, 0x555555757280, 0x0 <repeats 1022 times>}}
+156	            BFS_enqueue(pbfs_queue, parent->rt);
+1: *pbfs_queue = {H = 0x7fffffffbe60, T = 0x7fffffffbe58, Q = {0x555555757260, 0x555555757280, 0x0 <repeats 1022 times>}}
+159	        BFS_traverse(pbfs_queue);
+1: *pbfs_queue = {H = 0x7fffffffbe68, T = 0x7fffffffbe58, Q = {0x555555757260, 0x555555757280, 0x5555557572a0, 0x0 <repeats 1021 times>}}
+$3 = {lt = 0x5555557572c0, rt = 0x5555557572e0, v = 3}
+$4 = {lt = 0x0, rt = 0x555555757300, v = 6}
+
+Breakpoint 1, BFS_traverse (pbfs_queue=0x7fffffffbe40) at bst_topview.c:146
+146	   while(!BFS_queue_empty(pbfs_queue)) {
+1: *pbfs_queue = {H = 0x7fffffffbe68, T = 0x7fffffffbe58, Q = {0x555555757260, 0x555555757280, 0x5555557572a0, 0x0 <repeats 1021 times>}}
+147	        struct bt_node *parent = BFS_dequeue(pbfs_queue);
+1: *pbfs_queue = {H = 0x7fffffffbe68, T = 0x7fffffffbe58, Q = {0x555555757260, 0x555555757280, 0x5555557572a0, 0x0 <repeats 1021 times>}}
+151	        if (parent->lt) {
+1: *pbfs_queue = {H = 0x7fffffffbe68, T = 0x7fffffffbe60, Q = {0x555555757260, 0x555555757280, 0x5555557572a0, 0x0 <repeats 1021 times>}}
+152	            BFS_enqueue(pbfs_queue, parent->lt);
+1: *pbfs_queue = {H = 0x7fffffffbe68, T = 0x7fffffffbe60, Q = {0x555555757260, 0x555555757280, 0x5555557572a0, 0x0 <repeats 1021 times>}}
+155	        if (parent->rt) {
+1: *pbfs_queue = {H = 0x7fffffffbe70, T = 0x7fffffffbe60, Q = {0x555555757260, 0x555555757280, 0x5555557572a0, 0x5555557572c0, 0x0 <repeats 1020 times>}}
+Continuing.
+
+Breakpoint 1, BFS_traverse (pbfs_queue=0x7fffffffbe40) at bst_topview.c:146
+146	   while(!BFS_queue_empty(pbfs_queue)) {
+1: *pbfs_queue = {H = 0x7fffffffbe78, T = 0x7fffffffbe60, Q = {0x555555757260, 0x555555757280, 0x5555557572a0, 0x5555557572c0, 0x5555557572e0, 0x0 <repeats 1019 times>}}
+Continuing.
+
+Breakpoint 1, BFS_traverse (pbfs_queue=0x7fffffffbe40) at bst_topview.c:146
+146	   while(!BFS_queue_empty(pbfs_queue)) {
+1: *pbfs_queue = {H = 0x7fffffffbe80, T = 0x7fffffffbe68, Q = {0x555555757260, 0x555555757280, 0x5555557572a0, 0x5555557572c0, 0x5555557572e0, 0x555555757300, 0x0 <repeats 1018 times>}}
+Continuing.
+
+Breakpoint 1, BFS_traverse (pbfs_queue=0x7fffffffbe40) at bst_topview.c:146
+146	   while(!BFS_queue_empty(pbfs_queue)) {
+1: *pbfs_queue = {H = 0x7fffffffbe80, T = 0x7fffffffbe70, Q = {0x555555757260, 0x555555757280, 0x5555557572a0, 0x5555557572c0, 0x5555557572e0, 0x555555757300, 0x0 <repeats 1018 times>}}
+Continuing.
+
+Breakpoint 1, BFS_traverse (pbfs_queue=0x7fffffffbe40) at bst_topview.c:146
+146	   while(!BFS_queue_empty(pbfs_queue)) {
+1: *pbfs_queue = {H = 0x7fffffffbe80, T = 0x7fffffffbe78, Q = {0x555555757260, 0x555555757280, 0x5555557572a0, 0x5555557572c0, 0x5555557572e0, 0x555555757300, 0x0 <repeats 1018 times>}}
+Continuing.
+
+Breakpoint 1, BFS_traverse (pbfs_queue=0x7fffffffbe40) at bst_topview.c:146
+146	   while(!BFS_queue_empty(pbfs_queue)) {
+1: *pbfs_queue = {H = 0x7fffffffbe80, T = 0x7fffffffbe80, Q = {0x555555757260, 0x555555757280, 0x5555557572a0, 0x5555557572c0, 0x5555557572e0, 0x555555757300, 0x0 <repeats 1018 times>}}
+Continuing.
+[Inferior 1 (process 25706) exited normally]
+The program is not being run.
